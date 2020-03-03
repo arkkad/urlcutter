@@ -1,7 +1,11 @@
 package ru.url.cutter.services;
 
+import ru.url.cutter.model.Link;
+
+import java.util.Optional;
+
 public interface KeyMapperService {
-    String getLink(String key);
+    Optional<Link> getLink(String key);
     void add(String link);
 
 }
