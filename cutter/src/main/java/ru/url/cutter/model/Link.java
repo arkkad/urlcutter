@@ -6,7 +6,6 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "links")
 public class Link {
     @Id
     @GeneratedValue
